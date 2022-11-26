@@ -1,0 +1,15 @@
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.csproj.AssemblyReference.cache
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.AssemblyInfoInputs.cache
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.AssemblyInfo.cs
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.csproj.CoreCompileInputs.cache
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\Ping-Software.exe
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\Ping-Software.deps.json
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\Ping-Software.runtimeconfig.json
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\Ping-Software.dll
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\Ping-Software.pdb
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.dll
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\refint\Ping-Software.dll
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.pdb
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.genruntimeconfig.cache
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\ref\Ping-Software.dll

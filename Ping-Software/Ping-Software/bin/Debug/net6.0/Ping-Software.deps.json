@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ping-Software/1.0.0": {
+        "runtime": {
+          "Ping-Software.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ping-Software/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
