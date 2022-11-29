@@ -13,3 +13,5 @@ C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-So
 C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.pdb
 C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.genruntimeconfig.cache
 C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\ref\Ping-Software.dll
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Ping-Software\Ping-Software\obj\Debug\net6.0\Ping-Software.csproj.CopyComplete

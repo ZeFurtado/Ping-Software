@@ -7,8 +7,7 @@ namespace Ping_Software
         static void Main(string[] args) 
         {
             Computadores labs = new Computadores();
-            labs.Lab103();
-           
+            
             Console.WriteLine("Em qual dos laboratório você gostaria de fazer Ping: ");
             Console.WriteLine("1) 103   2) 104   3) 106   4) 107   ");
             string opcao = Console.ReadLine();
@@ -16,19 +15,20 @@ namespace Ping_Software
             switch (opcao) 
             {
                 case "1":
+                    labs.Lab103();
                     try
                     {
-                        for (int i = 0; i <= labs.lab103.Count - 1; i++)
+                        for (int i = 0; i <= labs.enderecoIP.Count - 1; i++)
                         {
                             Ping ping = new Ping();
-                            PingReply resposta = ping.Send(labs.lab103[i], 1000);
+                            PingReply resposta = ping.Send(labs.enderecoIP[i], 1000);
                             if (resposta.Status == IPStatus.Success)
                             {
-                                Console.WriteLine("O computador está ligado!");
+                                Console.WriteLine($"{labs.nomeComputador[i]} está ligado!");
                             }
                             else
                             {
-                                Console.WriteLine("O computador está desligado");
+                                Console.WriteLine($"{labs.nomeComputador[i]} está desligado");
                             }
                         }
 
@@ -38,6 +38,34 @@ namespace Ping_Software
                         Console.WriteLine(ex.Message);
                     }
                     break;
+
+                case "2":
+
+                    labs.Lab104();
+                    try
+                    {
+                        for (int i = 0; i <= labs.enderecoIP.Count -1; i++) 
+                        {
+                            Ping ping = new Ping();
+                            PingReply resposta = ping.Send(labs.enderecoIP[i], 1000);
+                            if (resposta.Status == IPStatus.Success)
+                            {
+                                Console.WriteLine($"{labs.nomeComputador[i]} está ligado!");
+                            }
+                            else
+                            {
+                                Console.WriteLine($"{labs.nomeComputador[i]} está desligado");
+                            }
+                        }
+
+                        labs.LimpaLista();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }               
+                    break;
+
             }
 
         }

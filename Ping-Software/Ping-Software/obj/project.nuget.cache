@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WyPRtxSkJ81GJhiZmvSc6fNwzSGN7aOaItqHTTlPpKkvOqly6gLIuVBNVQAQCJITDdDjxEZrBn+pp4zQ9Son0w==",
+  "dgSpecHash": "TQMt1mmE9sKAt3FwEDANEn4/mPCt+kCSWoyDpZ99WcWuC8JU8u1F25MRlWAr7YsP7n9XZUS72OQ/+86ZDUm4dQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lukhas.furtado\\Documents\\Programming\\Repositório\\Ping-Software\\Ping-Software\\Ping-Software\\Ping-Software.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lukhas.furtado\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
