@@ -7,6 +7,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using CsvHelper.Configuration.Attributes;
 using System.Globalization;
+using System.Net.NetworkInformation;
 
 namespace Ping_Software
 {
@@ -14,56 +15,47 @@ namespace Ping_Software
     {
         public List<string> enderecoIP = new List<string>();
         public List<string> nomeComputador = new List<string>();
-    
-        public string[] Lab103()
+
+        public void DispararPacote(string filePath)
         {
-            enderecoIP.Add("192.168.23.11");
-            nomeComputador.Add("ROB01");
+            LerArquivo(filePath);
 
-            enderecoIP.Add("192.168.23.12");
-            nomeComputador.Add("ROB02");
+            for (int i = 0; i <= enderecoIP.Count - 1; i++)
+            {
 
-            enderecoIP.Add("192.168.23.13");
-            nomeComputador.Add("ROB03");
+                Console.WriteLine(enderecoIP[i]);
 
-            enderecoIP.Add("192.168.23.14");
-            nomeComputador.Add("ROB04");
-
-            enderecoIP.Add("192.168.23.15");
-            nomeComputador.Add("ROB05");
+            }
 
             
-            return enderecoIP.ToArray();
         }
 
-        public string[] Lab104() 
+
+        public void LerArquivo(string caminhoArquivo) 
         {
-            try 
+            try
             {
                 var configCsv = new CsvConfiguration(CultureInfo.InvariantCulture);
-                
-                using (var arquivoCSV = new StreamReader(@"C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Lab104.csv"))    
-                using (var leitorCSV = new CsvReader(arquivoCSV, configCsv)) 
+
+                using (var arquivoCsv = new StreamReader(caminhoArquivo))
+                using (var leitorCsv = new CsvReader(arquivoCsv, configCsv)) 
                 {
-                    var dados = leitorCSV.GetRecords<Laboratorios>();
+                    var dados = leitorCsv.GetRecords<Laboratorios>();
 
-                    foreach (var i in dados)
+                    foreach (var campo in dados) 
                     {
-                        enderecoIP.Add(i.ip);
-                        nomeComputador.Add(i.nome);
+                        enderecoIP.Add(campo.ip);
+                        nomeComputador.Add(campo.nome);
                     }
-                    
                 }
-
-                return enderecoIP.ToArray();
             }
-            catch 
+            catch(Exception ex) 
             {
-                return enderecoIP.ToArray();
+                Console.WriteLine(ex.Message);
             }
         }
 
-        public void LimpaLista() 
+        public void LimpaCampos() 
         {
             enderecoIP.Clear();
             nomeComputador.Clear();
@@ -78,7 +70,6 @@ namespace Ping_Software
 
         [Name("IP")]
         public string ip { get; set; }
-     
     }
 
 }
