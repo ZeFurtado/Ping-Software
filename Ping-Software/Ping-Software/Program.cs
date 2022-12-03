@@ -17,10 +17,12 @@ namespace Ping_Software
                 case "1":
 
                     labs.DispararPacote(@"C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Lab103.csv");
-                    
+                 
                     break;
 
                 case "2":
+
+                    labs.DispararPacote(@"C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Lab104.csv");
 
                     break;
 
@@ -28,6 +30,7 @@ namespace Ping_Software
 
                 case "3":
 
+                    labs.DispararPacote(@"C:\Users\lukhas.furtado\Documents\Programming\Repositório\Ping-Software\Lab106.csv");
 
                     break;
 

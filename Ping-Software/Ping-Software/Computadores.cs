@@ -15,19 +15,35 @@ namespace Ping_Software
     {
         public List<string> enderecoIP = new List<string>();
         public List<string> nomeComputador = new List<string>();
+        
 
         public void DispararPacote(string filePath)
         {
             LerArquivo(filePath);
+            Ping ping = new Ping();
+            PingReply reply;
 
             for (int i = 0; i <= enderecoIP.Count - 1; i++)
             {
-
-                Console.WriteLine(enderecoIP[i]);
+                try
+                {
+                    reply = ping.Send(enderecoIP[i], 1);
+                    if (reply.Status == IPStatus.Success)
+                    {
+                        Console.WriteLine($"{nomeComputador[i]} está ligado  [{enderecoIP[i]}]");
+                    }
+                    else 
+                    {
+                        Console.WriteLine($"{nomeComputador[i]} está desligado  [{enderecoIP[i]}]");
+                    }
+                }
+                catch(Exception ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
 
             }
-
-            
+  
         }
 
 
