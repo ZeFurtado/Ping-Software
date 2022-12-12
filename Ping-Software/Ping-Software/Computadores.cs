@@ -34,7 +34,7 @@ namespace Ping_Software
                     }
                     else 
                     {
-                        Console.WriteLine($"{nomeComputador[i]} está desligado  [{enderecoIP[i]}]");
+                        
                     }
                 }
                 catch(Exception ex)
